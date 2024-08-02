@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(to right,#fbc2eb,#a6c1ee);
+    font-family: Arial,sans-serif;
+}
+
+.div2{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#FN{
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#FN::placeholder{
+    font-size: 15px;
+}
+
+#LN{
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#LN::placeholder{
+    font-size: 15px;
+}
+
+#regEmail{
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#regEmail::placeholder{
+    font-size: 15px;
+}
+
+#regPass{
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#regPass::placeholder{
+    font-size: 15px;
+}
+
+#regRepPass{
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#regRepPass::placeholder{
+    font-size: 15px;
+}
+
+#btn{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Arial,sans-serif;
+    transition-duration: 0.5s;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#FNError{
+    color: red;
+}
+
+#LNError{
+    color: red;
+}
+
+#regEmailError{
+    color: red;
+}
+
+#regPassError{
+    color: red;
+}
+
+#regRepPassError{
+    color: red;
+}
